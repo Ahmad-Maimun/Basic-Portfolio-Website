@@ -10,6 +10,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 ul {
   list-style: none;
 }
@@ -32,16 +36,51 @@ a {
 .dark-2 {
   color: #474747;
 }
+.dark-3 {
+  color: #757575;
+}
+.sub-p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 28px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-130 {
+  margin-bottom: 130px;
+}
+.cv-btn {
+  padding: 18px 17px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+}
+.contact-btn {
+  padding: 18px 23px;
+  background-color: transparent;
+  border: 1px solid #fd6e0a;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-left: 30px;
+}
 /* Heder Styls */
 .header {
-  margin-top: 41px;
+  padding-top: 30px;
+  background-color: #fff8f3;
+  background-image: url(/assets/images/developer.png),
+    url(/assets/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1140px;
-  margin: 0 auto;
 }
 nav h3 {
   font-size: 45px;
@@ -63,4 +102,28 @@ nav ul button {
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+}
+/* Hero Section Styles */
+.hero-section {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.hero-content span {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.hero-content h1 {
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hero-content p {
+  max-width: 585px;
+}
+.hero-img img {
+  max-width: 584px;
+  height: 676px;
+  vertical-align: middle;
 }
