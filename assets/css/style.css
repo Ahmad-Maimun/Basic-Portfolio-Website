@@ -68,6 +68,13 @@ a {
   border-radius: 5px;
   margin-left: 30px;
 }
+.section-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  text-align: center;
+  margin-bottom: 20px;
+}
 /* Heder Styls */
 .header {
   padding-top: 30px;
@@ -81,6 +88,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
 nav h3 {
   font-size: 45px;
@@ -106,8 +115,11 @@ nav ul button {
 /* Hero Section Styles */
 .hero-section {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
+  margin: 40px auto 0;
+  width: 90%;
+  /* width: 1140px; */
 }
 .hero-content span {
   font-size: 45px;
@@ -126,4 +138,32 @@ nav ul button {
   max-width: 584px;
   height: 676px;
   vertical-align: middle;
+}
+/* About Me Section */
+.about-section {
+  padding: 131px 157px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+}
+.about-content {
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px;
+}
+.about-content p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-infos {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.about-info span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.about-info h4 {
+  font-size: 20px;
+  font-weight: 700;
 }
